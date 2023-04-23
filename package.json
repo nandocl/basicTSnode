@@ -2,7 +2,7 @@
   "name": "project-name",
   "version": "1.0.0",
   "description": "Project description",
-  "main": "dist/index.js",
+  "main": "dist/server.js",
   "devDependencies": {
     "@types/node": "^18.16.0",
     "prettier": "^2.8.7",
@@ -10,9 +10,9 @@
     "ts-node": "^10.9.1"
   },
   "scripts": {
-    "start": "node dist/index.js",
+    "start": "node dist/server.js",
     "build": "tsc",
     "dev-obs": "tsc -W",
-    "dev-run": "ts-node src/index.ts"
+    "dev-run": "ts-node src/server.ts"
   }
 }
