@@ -1,4 +1,4 @@
-A minimal starter template for a Typescript node.js project
+A minimal starter template for a Typescript node.js project.
 
 Libs:
 - @types/node
